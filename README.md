@@ -2,8 +2,7 @@
 
  ``` Comandos ```
 
-Baixar o repositorio
-Acessar a pasta gerada pelo Download
+Baixar o repositorio e Acessar a pasta gerada pelo Download
 
 - vagrant up
 
