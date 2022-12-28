@@ -1,30 +1,30 @@
 # live-42
 
-# Comandos
+ ``` Comandos ```
 
 Baixar o repositorio
 Acessar a pasta gerada pelo Download
 
 - vagrant up
 
-- Validar conexão
+Validar conexão
 
-ssh vagrant@ip_da_maquinas
+- ssh vagrant@ip_da_maquinas
 
-- Instalar Ansible
+Instalar Ansible
 
-sudo apt update
-sudo apt install ansible
+- sudo apt update
+- sudo apt install ansible
 
-- Criar um arquivo de inventario e cadastra os servidores
+Criar um arquivo de inventario e cadastra os servidores
 
-vim inventario.txt
+- vim inventario.txt
 
-- Validar conexão pelo ansible
+Validar conexão pelo ansible
 
-ansible -i inventario.txt all -m ping
+- ansible -i inventario.txt all -m ping
 
-- Instalar/gerenciar servidores remotos
+Instalar/gerenciar servidores remotos
 
-ansible -i inventario all -b -m apt -a "name=net-tools"
-ansible -i inventario all -b -m user -a "name=seu_nome"
+- ansible -i inventario all -b -m apt -a "name=net-tools"
+- ansible -i inventario all -b -m user -a "name=seu_nome"
